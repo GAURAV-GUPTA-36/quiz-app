@@ -72,14 +72,14 @@ def dbms_quiz():
          "options": ["1. To reduce redundancy", "2. To increase redundancy", "3. To ensure data in one table", "4. To simplify queries"], 
          "answer": 1}
     ]
-    for q in questions:
-        print(q["question"])
-        for option in q["options"]:
-            print(option)
-        answer = input("Enter your answer (1-4): ")
-        if answer.isdigit() and int(answer) == q["answer"]:
-            score += 1
-    return score
+    # for q in questions:
+    #     print(q["question"])
+    #     for option in q["options"]:
+    #         print(option)
+    #     answer = input("Enter your answer (1-4): ")
+    #     if answer.isdigit() and int(answer) == q["answer"]:
+    #         score += 1
+    # return score
 
 def python_quiz():
     score = 0
