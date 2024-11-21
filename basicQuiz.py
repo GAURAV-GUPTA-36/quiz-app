@@ -56,21 +56,21 @@ def dsa_quiz():
 def dbms_quiz():
     score = 0
     questions = [
-        {"question": "Which of the following is a primary key?", 
-         "options": ["1. A unique identifier for each record", "2. A key that accepts null values", "3. A key for relationships", "4. A key that allows duplicates"], 
-         "answer": 1},
-        {"question": "What does ACID stand for in databases?", 
-         "options": ["1. Atomicity, Consistency, Isolation, Durability", "2. Accuracy, Consistency, Integrity, Durability", "3. Atomicity, Coherence, Isolation, Data", "4. Availability, Consistency, Isolation, Durability"], 
-         "answer": 1},
-        {"question": "Which SQL statement is used to create a table?", 
-         "options": ["1. INSERT INTO", "2. UPDATE", "3. CREATE TABLE", "4. ALTER TABLE"], 
-         "answer": 3},
-        {"question": "Which join returns all rows matching in either table?", 
-         "options": ["1. INNER JOIN", "2. LEFT JOIN", "3. RIGHT JOIN", "4. FULL JOIN"], 
-         "answer": 4},
-        {"question": "What is the purpose of normalization?", 
-         "options": ["1. To reduce redundancy", "2. To increase redundancy", "3. To ensure data in one table", "4. To simplify queries"], 
-         "answer": 1}
+        # {"question": "Which of the following is a primary key?", 
+        #  "options": ["1. A unique identifier for each record", "2. A key that accepts null values", "3. A key for relationships", "4. A key that allows duplicates"], 
+        #  "answer": 1},
+        # {"question": "What does ACID stand for in databases?", 
+        #  "options": ["1. Atomicity, Consistency, Isolation, Durability", "2. Accuracy, Consistency, Integrity, Durability", "3. Atomicity, Coherence, Isolation, Data", "4. Availability, Consistency, Isolation, Durability"], 
+        #  "answer": 1},
+        # {"question": "Which SQL statement is used to create a table?", 
+        #  "options": ["1. INSERT INTO", "2. UPDATE", "3. CREATE TABLE", "4. ALTER TABLE"], 
+        #  "answer": 3},
+        # {"question": "Which join returns all rows matching in either table?", 
+        #  "options": ["1. INNER JOIN", "2. LEFT JOIN", "3. RIGHT JOIN", "4. FULL JOIN"], 
+        #  "answer": 4},
+        # {"question": "What is the purpose of normalization?", 
+        #  "options": ["1. To reduce redundancy", "2. To increase redundancy", "3. To ensure data in one table", "4. To simplify queries"], 
+        #  "answer": 1}
     ]
     for q in questions:
         print(q["question"])
